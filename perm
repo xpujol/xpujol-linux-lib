@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo "chmod -R 777 *"
+sudo chmod -R 777 *
+
+echo "chown -R nobody:nobody *"
+sudo chown -R nobody:nobody *
+

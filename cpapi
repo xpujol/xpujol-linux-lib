@@ -1,0 +1,8 @@
+#!/bin/sh
+
+project=$1
+api=$2
+
+echo "sudo cp -r /var/www/vhosts/$1/httpdocs/$2/* /var/www/api/$2"
+sudo cp -r /var/www/vhosts/$1/httpdocs/$2/* /var/www/api/$2
+

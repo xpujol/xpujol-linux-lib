@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Syncing the date with an NTP server"
+sudo ntpdate ntp.org
+
