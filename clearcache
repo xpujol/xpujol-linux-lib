@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# http://stackoverflow.com/questions/5231678/clear-mysql-query-cache-without-restarting-server
+
+echo "Clearing disc cache"
+echo "sync && echo 3 | sudo tee /proc/sys/vm/drop_caches"
+sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
+

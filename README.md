@@ -14,4 +14,6 @@ The scripts
 -----------
 - **datesync**: syncs the date of the machine with an NTP server
 - **perm**: sets the widest possible permissions and ownerships for all the files and directories within the present location
+- **clearcache**: clears the memory disc caching. Particularly handy for clearing the MySQL query cache
 - **cpapi**: very specific to my particular working file structure
+
